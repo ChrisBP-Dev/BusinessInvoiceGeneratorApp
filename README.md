@@ -2,7 +2,9 @@
 
 A web and mobile app for generating and managing business invoices, built with Flutter and Firebase.
 
-![Business Invoice Generator](https://business-invoice-generator.web.app/assets/images/preview.png)
+![Customer - Mobile](https://business-invoice-generator.web.app/assets/customer-mobile.png)
+![Invoice - Mobile](https://business-invoice-generator.web.app/assets/invoice-mobile.png)
+![Sign In - Mobile](https://business-invoice-generator.web.app/assets/sign-in-mobile.png)
 
 ## 🌐 Live Demo
 
