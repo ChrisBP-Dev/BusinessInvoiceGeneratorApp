@@ -2,9 +2,11 @@
 
 A web and mobile app for generating and managing business invoices, built with Flutter and Firebase.
 
-![Customer - Mobile](https://business-invoice-generator.web.app/assets/customer-mobile.png)
-![Invoice - Mobile](https://business-invoice-generator.web.app/assets/invoice-mobile.png)
-![Sign In - Mobile](https://business-invoice-generator.web.app/assets/sign-in-mobile.png)
+<div align="center">
+  <img src="assets/sign-in-mobile.png" width="250" alt="Sign In - Mobile" />
+  <img src="assets/customer-mobile.png" width="250" alt="Customer - Mobile" />
+  <img src="assets/invoice-mobile.png" width="250" alt="Invoice - Mobile" />
+</div>
 
 ## 🌐 Live Demo
 
@@ -47,21 +49,21 @@ Try the app at: [business-invoice-generator.web.app](https://business-invoice-ge
 - Features-First
 
 ### Folder Structure
+```
 lib/
-├── src/
-│ ├── app/
-│ ├── core/
-│ ├── features/
-│ │ ├── auth/
-│ │ ├── business/
-│ │ ├── customer/
-│ │ ├── invoice/
-│ │ ├── pdf/
-│ │ └── service/
-│ ├── localization/
-│ └── routing/
-
-
+└── src/
+    ├── app/
+    ├── core/
+    ├── features/
+    │   ├── auth/
+    │   ├── business/
+    │   ├── customer/
+    │   ├── invoice/
+    │   ├── pdf/
+    │   └── service/
+    ├── localization/
+    └── routing/
+```
 
 ### Application Layers
 
@@ -112,12 +114,14 @@ lib/
 ## 🚀 Getting Started
 
 1. Clone the repository:
-bash
+```bash
 git clone https://github.com/tu-usuario/business_invoice_generator.git
+```
 
 2. Install the dependencies:
-bash
+```bash
 flutter pub get
+```
 
 3. Configure Firebase:
 - Create a project in Firebase Console
@@ -125,7 +129,6 @@ flutter pub get
 - Update the configuration files
 
 4. Run the application:
-bash
+```bash
 flutter run
-
-
+```
