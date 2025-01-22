@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# macOS
+.DS_Store
+DerivedData/
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/Flutter/Generated.xcconfig
+ios/Flutter/*.xcconfig
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace
+ios/build/
+
+# Xcode specific
+*.xcworkspace
+*.xcuserstate
+*.xcsettings
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Gradle
+.gradle/
+
+# Linux
+linux/flutter/generated_plugin_registrant.cc
+linux/ephemeral/
+linux/build/
+
+# Web
+web/generated_plugin_registrant.dart
+web/.dart_tool/
+
+# Firebase (if using FlutterFire)
+firebase_app_distribution.apks
+firebase_app_distribution_apks/
